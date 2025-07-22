@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
+import os
 
 # ----------------------
 # ✅ Page Configuration
@@ -17,10 +18,17 @@ st.markdown("---")
 # -----------------------------------------------
 # 📂 Load Data
 # -----------------------------------------------
-afford = pd.read_csv("../data/affordability_final.csv", parse_dates=["Date"])
-food = pd.read_csv("../data/food_afford.csv")
-items = pd.read_csv("../data/item_summary.csv")
-tags = pd.read_csv("../data/tag_summary.csv")
+
+# Get the current directory of the script (i.e., Dashboard/)
+BASE_DIR = os.path.dirname(__file__)
+DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
+
+# Use safe paths for all CSV files
+afford = pd.read_csv(os.path.join(DATA_DIR, 'affordability_final.csv'), parse_dates=["Date"])
+food = pd.read_csv(os.path.join(DATA_DIR, 'food_afford.csv'))
+items = pd.read_csv(os.path.join(DATA_DIR, 'item_summary.csv'))
+tags = pd.read_csv(os.path.join(DATA_DIR, 'tag_summary.csv'))
+
 
 # ----------------------
 # ✅ Sidebar or Main Menu Selection

@@ -1,0 +1,35 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Large or raw data files (add back selected files manually)
+*.xlsx
+*.csv
+
+# Executable / compiled
+*.exe
+*.zip
+*.tar.gz
+
+# Notebook metadata outputs (optional)
+*.nbconvert.ipynb

@@ -1,0 +1,18 @@
+# Core data tools
+pandas
+numpy
+
+# Excel 
+openpyxl
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dashboard
+streamlit
+
+# Jupyter (If Local)
+jupyter
+

@@ -70,6 +70,6 @@ This project explores how the **cost of eating healthy** has changed in Ireland 
 
 ## 🚀 Try the Dashboard
 
-> 📍 [Launch Food Affordability Dashboard](ADD the LINK after the files are uploaded)
+> 📍 [Launch Food Affordability Dashboard](https://dashbpy-88praxrbnfsehxt6tarbww.streamlit.app/)
 
 Explore item-level, category-level, and affordability trends over time.
